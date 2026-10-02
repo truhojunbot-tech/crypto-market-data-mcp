@@ -1,0 +1,40 @@
+{
+  "actorSpecification": 1,
+  "name": "crypto-market-data-mcp",
+  "title": "Crypto Data MCP Server",
+  "description": "Crypto data MCP server: real-time market data API for AI agents. Tools include kimchi premium, DeFi yields, ETF flows, Fear & Greed index, funding rates, and market metrics. No API keys required. Persistent HTTP server.",
+  "version": "0.6",
+  "buildTag": "latest",
+  "usesStandbyMode": true,
+  "webServerMcpPath": "/mcp/v1",
+  "environmentVariables": {},
+  "defaultRunOptions": {
+    "build": "latest",
+    "timeoutSecs": 3600,
+    "memoryMbytes": 512
+  },
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "fields": {},
+      "views": {}
+    }
+  },
+  "payPerEvent": "./pay_per_event.json",
+  "output": "./output_schema.json",
+  "categories": [
+    "DEVELOPER_TOOLS"
+  ],
+  "seoTitle": "Crypto Data MCP Server",
+  "seoDescription": "Crypto data MCP server: real-time market data API for AI agents. Tools include kimchi premium, DeFi yields, ETF flows, Fear & Greed index, funding rates...",
+  "tags": [
+    "ai",
+    "crypto",
+    "defi",
+    "developer-tools",
+    "etf",
+    "free",
+    "funding-rate",
+    "korea"
+  ]
+}

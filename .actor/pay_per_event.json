@@ -1,0 +1,11 @@
+{
+    "actorSpecification": 1,
+    "events": {
+        "apify-actor-start": {
+            "price": 0.001
+        },
+        "tool-call": {
+            "price": 0.005
+        }
+    }
+}

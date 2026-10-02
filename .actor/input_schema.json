@@ -1,0 +1,23 @@
+{
+    "title": "Crypto Data MCP Server Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "port": {
+            "title": "HTTP Port",
+            "type": "integer",
+            "editor": "number",
+            "description": "Port for the MCP HTTP server. Default 8080. Overridden by ACTOR_STANDBY_PORT env var.",
+            "default": 8080
+        },
+        "maxRuntimeSecs": {
+            "title": "Max Runtime (seconds)",
+            "type": "integer",
+            "editor": "number",
+            "description": "Auto-shutdown after N seconds. 0 = run indefinitely (real standby mode). For testing set to 240 or less.",
+            "default": 240,
+            "prefill": 0
+        }
+    },
+    "required": []
+}
